@@ -21,6 +21,7 @@ html, body {
 
 body {
     background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -31,7 +32,7 @@ body {
 .main {
     flex: 1 0 auto;
     background-color: powderblue;
-    padding: 20px;
+    padding: 30px;
 }
 
 .header, .footer {
@@ -46,7 +47,7 @@ body {
 }
 
 .header, .logo {
-    width: 300px;
+    width: 250px;
     padding: 2em;
 }
 
@@ -192,9 +193,5 @@ blockquote {
 
 .pic-on-me {
     width: 300px;
-
-}
-
-.text-about-me {
-    float: left;
+    float: right;
 }

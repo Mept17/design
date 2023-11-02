@@ -10,4 +10,5 @@ Mitt namn är Melvin Petersson och är fullt ut en Karlskrona bo, då jag är b�
 
 Datorer har framförallt varit ett stort intresse för mig under stora delar av mitt liv. Det började självklart att man spelade en hel del när man var yngre, men sen har det mer och mer blivit mer intressant med helheten hur allt kan fungera. Därför trodde jag att denna utbildningen skulle vara något som skulle passa mig. Hittills har jag trivts bra med vad vi gjort och det har varit saker som intresserat mig. Annars är jag en väldigt sportinriktad person då jag själv spelar fotboll men också en del när det finns tid över. Så man kan säga att majoriteten av all tid som jag får över utöver plugget lägger jag på att kolla på nån match eller liknande som sänds på tv. Om det inte är fotboll eller tennis så är det hockey, annars är det formel 1. Ja precis allt som går att kolla på i sportväg helt enkelt.
 
+
 <img src="image/IMG_2852.jpeg" alt="Min bild" class="pic-on-me">
