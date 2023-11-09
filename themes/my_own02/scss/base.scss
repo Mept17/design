@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: $background-color;
+    color: $text-color;
+    font-family: $text-font;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+}
+
+.main {
+    flex: 1 0 auto;
+    background-color: rgb(176, 224, 230);
+    padding: 30px;
+    width: 75%;
+    margin: 0 auto;
+}
