@@ -1,0 +1,13 @@
+.landingpage {
+    display: grid;
+    gap: 1rem 2rem;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}

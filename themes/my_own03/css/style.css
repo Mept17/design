@@ -3,6 +3,9 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik:wght@500&display=swap");
 .fa,
 .fas,
 .far,
@@ -6466,7 +6469,7 @@ html, body {
 }
 
 body {
-  background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, rgb(4, 189, 228) 0%, rgb(2, 83, 185) 100.2%);
+  background-image: radial-gradient(circle farthest-corner at 22.4% 21.7%, rgb(43, 166, 225) 0%, rgb(43, 109, 224) 100.2%);
   color: #333;
   font-family: "Merriweather", serif;
   background-attachment: fixed;
@@ -6477,12 +6480,69 @@ body {
 
 .main {
   flex: 1 0 auto;
-  background-color: rgb(176, 224, 230);
+  background-color: #2BE0E0;
   padding: 30px;
   width: 75%;
   margin: 0 auto;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  text-align: center;
+}
+
+.box-css,
+.box-php,
+.box-git {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  grid-column: span 1;
+}
+
+.box-html,
+.box-javascript,
+.box-sqlite {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.box-python {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  grid-column: span 3;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .box-css, .box-php, .box-git, .box-html,
+  .box-javascript, .box-sqlite, .box-python {
+    grid-column: span 3;
+  }
+}
 .title, .logo {
   padding: 3em 3em 3em 0;
 }
@@ -6528,16 +6588,10 @@ body {
 }
 .nav ul li {
   position: relative;
-  left: 30em;
-}
-.nav li:first-child {
-  background-color: rgb(0, 128, 0);
-}
-.nav li:last-child {
-  background-color: rgb(255, 0, 0);
+  left: 10em;
 }
 .nav li:hover {
-  background-color: rgb(0, 0, 255);
+  background-color: #2B34E0;
 }
 
 .footer {
@@ -6545,7 +6599,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #000;
-  background-color: #222;
+  background-color: #2B34E0;
   color: #fff;
   padding: 2rem 4rem;
 }
@@ -6617,10 +6671,6 @@ pre code {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
-  color: #333;
-}
-
 .nav-toggle {
   display: none;
 }
@@ -6652,17 +6702,4 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
-}
-.landingpage {
-  display: grid;
-  gap: 1rem 2rem;
-}
-
-.landingpage h1 {
-  grid-column: span 3;
-}
-
-.box {
-  border: 1px solid #ccc;
-  padding: 1rem;
 }

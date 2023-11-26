@@ -1,0 +1,58 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    text-align: center;
+}
+
+.box-css,
+.box-php,
+.box-git {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 1;
+}
+
+.box-html,
+.box-javascript,
+.box-sqlite {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 2;
+}
+
+.box-python {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 3;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .box-css, .box-php, .box-git, .box-html, 
+    .box-javascript, .box-sqlite, .box-python {
+        grid-column: span 3;
+    }
+}
