@@ -1,0 +1,29 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+@media (min-width: 668px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+figure {
+    margin: 0;
+    height: auto;
+    display: block;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
