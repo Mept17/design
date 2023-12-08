@@ -44,10 +44,11 @@
 .nav {
     a {
         font-size: 2rem;
+        border-bottom: 4px solid transparent;
     }
 
     a:hover {
-        border-bottom: 4px solid #000;
+        border-bottom: #000;
     }
 
     ul li {

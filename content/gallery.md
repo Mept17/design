@@ -1,6 +1,6 @@
 ---
 Title: Gallery
-Description: This is our gallery page.
+Description: This is our gallery-page.
 ---
 
 Gallery
@@ -64,4 +64,4 @@ Gallery
 </div>
 
 <h1 class="video">Video</h1>
-<iframe class="video" width="600" height="350" src="https://www.youtube.com/embed/7nstavtGBdA" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" width="600" height="350" src="https://www.youtube.com/embed/7nstavtGBdA" frameborder="0" allowfullscreen title="Video"></iframe>

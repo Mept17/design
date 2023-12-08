@@ -1,8 +1,22 @@
-img {
-    max-width: 100%;
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-content {
+    width: 70%;
 }
 
 .pic-on-me {
     width: 300px;
-    float: right;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20%;
+    border: 3px solid #000;
+}
+
+@media (max-width: 767px) {
+    .pic-on-me {
+        display: none;
+    }
 }
